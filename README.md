@@ -40,6 +40,9 @@ again trace call and view that look like CharacterSource::SetEncoding look like 
 
 next i call fail api ( ITaskFolder::RegisterTask) again, but now set bp after call SetEncoding
 and i view that `0xC00CEE03` is returned
+
+![Screenshot](2.png)
+
 i search this vale in sdk headers and found in `xmllite.idl` 
 in `enum XmlError`
 ```
