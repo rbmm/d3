@@ -49,3 +49,11 @@ in `enum XmlError`
 MX_E_ENCODINGSWITCH,            // 0xC00CEE03 unable to switch the encoding
 ```
 after this found what is wrong in my xml was not very hard (was encoding="UTF-8" in file, whe i pass it as UTF-16)
+
+after this was yet another error `0x80041318` - The task XML contains a value which is incorrectly formatted or out of range. 
+
+again - trace call in Schedule process
+
+![Screenshot](5.png)
+
+help understand which concrete value..
